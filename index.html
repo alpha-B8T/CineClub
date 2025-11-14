@@ -1,0 +1,62 @@
+<script>
+  async function loadSchedule() {
+    const res = await fetch('schedule.json');
+    const data = await res.json();
+    renderSchedule(data);
+  }
+
+  function renderSchedule(days) {
+    const container = document.getElementById('schedule');
+    container.innerHTML = '';
+
+    days.forEach(day => {
+      const dayDiv = document.createElement('div');
+      dayDiv.className = 'day';
+
+      const dayTitle = document.createElement('div');
+      dayTitle.className = 'day-title';
+      dayTitle.textContent = day.day;
+      dayDiv.appendChild(dayTitle);
+
+      if (!day.movies || day.movies.length === 0) {
+        const empty = document.createElement('div');
+        empty.className = 'empty';
+        empty.textContent = 'No movies listed for this day.';
+        dayDiv.appendChild(empty);
+      } else {
+        day.movies.forEach(movie => {
+          const movieDiv = document.createElement('div');
+          movieDiv.className = 'movie';
+
+          const movieName = document.createElement('div');
+          movieName.className = 'movie-name';
+          movieName.textContent = movie.movie;
+          movieDiv.appendChild(movieName);
+
+          const showtimesDiv = document.createElement('div');
+          showtimesDiv.className = 'showtimes';
+
+          (movie.times || []).forEach((time, i) => {
+            const link = (movie.links || [])[i] || movie.links?.[0] || '#';
+
+            const a = document.createElement('a');
+            a.className = 'showtime-link';
+            a.href = link.trim();
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+            a.textContent = time;
+
+            showtimesDiv.appendChild(a);
+          });
+
+          movieDiv.appendChild(showtimesDiv);
+          dayDiv.appendChild(movieDiv);
+        });
+      }
+
+      container.appendChild(dayDiv);
+    });
+  }
+
+  loadSchedule();
+</script>

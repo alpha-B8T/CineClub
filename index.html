@@ -49,6 +49,20 @@
 
   <h1>NYCinema</h1>
 
+  <div style="margin-bottom: 1rem; display: flex; gap: 0.75rem; flex-wrap: wrap;">
+    <label>
+     Theater:
+     <select id="theaterFilter">
+      <!-- options will be filled by JS -->
+     </select>
+    </label>
+
+    <label>
+     Search movie:
+     <input id="searchInput" type="text" placeholder="Type a title..." />
+    </label>
+  </div>
+  
   <!-- THIS is the container your script fills -->
   <div id="schedule">Loading...</div>
 
@@ -127,5 +141,6 @@
 
 </body>
 </html>
+
 
 

@@ -67,80 +67,173 @@
   <div id="schedule">Loading...</div>
 
   <script>
-    async function loadSchedule() {
-      try {
-        const res = await fetch('schedule.json');
-        if (!res.ok) {
-          document.getElementById('schedule').textContent =
-            'Failed to load schedule.json (status ' + res.status + ')';
-          return;
-        }
+  let fullData = []; // will hold all days from schedule.json
 
-        const data = await res.json();
-        renderSchedule(data);
-      } catch (err) {
-        document.getElementById('schedule').textContent =
-          'Error loading schedule: ' + err;
+  async function loadSchedule() {
+    const container = document.getElementById('schedule');
+    container.textContent = 'Loading...';
+
+    try {
+      const res = await fetch('schedule.json');
+      if (!res.ok) {
+        container.textContent = 'Failed to load schedule.json (status ' + res.status + ')';
+        return;
       }
+
+      const data = await res.json();
+      fullData = data;
+
+      setupTheaterFilter(data);
+      setupSearchFilter();
+
+      applyFilters(); // initial render
+    } catch (err) {
+      container.textContent = 'Error loading schedule: ' + err;
+      console.error(err);
+    }
+  }
+
+  function setupTheaterFilter(data) {
+    const select = document.getElementById('theaterFilter');
+
+    // Collect unique theater names
+    const theaters = Array.from(new Set(
+      data.map(d => d.theater || 'Unknown theater')
+    )).sort();
+
+    // Clear any existing options
+    select.innerHTML = '';
+
+    // "All" option
+    const allOption = document.createElement('option');
+    allOption.value = '';
+    allOption.textContent = 'All theaters';
+    select.appendChild(allOption);
+
+    // One option per theater
+    theaters.forEach(theater => {
+      const opt = document.createElement('option');
+      opt.value = theater;
+      opt.textContent = theater;
+      select.appendChild(opt);
+    });
+
+    // Re-render when user changes theater
+    select.addEventListener('change', applyFilters);
+  }
+
+  function setupSearchFilter() {
+    const input = document.getElementById('searchInput');
+    input.addEventListener('input', () => {
+      // tiny debounce-ish feel by just re-rendering; for small data this is fine
+      applyFilters();
+    });
+  }
+
+  function applyFilters() {
+    const theaterSelect = document.getElementById('theaterFilter');
+    const searchInput = document.getElementById('searchInput');
+
+    const theaterFilter = theaterSelect.value; // '' means "all"
+    const searchTerm = searchInput.value.trim().toLowerCase();
+
+    // Filter days
+    const filteredDays = fullData.map(day => {
+      // Filter by theater first
+      if (theaterFilter && (day.theater || 'Unknown theater') !== theaterFilter) {
+        return null;
+      }
+
+      // If no search term, keep all movies
+      if (!searchTerm) {
+        return day;
+      }
+
+      // Filter movies by title match
+      const filteredMovies = (day.movies || []).filter(movie =>
+        movie.movie && movie.movie.toLowerCase().includes(searchTerm)
+      );
+
+      // If no movies match on this day, drop the whole day
+      if (filteredMovies.length === 0) return null;
+
+      // Otherwise, return a new day object with only matching movies
+      return {
+        ...day,
+        movies: filteredMovies
+      };
+    }).filter(Boolean); // remove nulls
+
+    renderSchedule(filteredDays);
+  }
+
+  function renderSchedule(days) {
+    const container = document.getElementById('schedule');
+    container.innerHTML = '';
+
+    if (!days || days.length === 0) {
+      container.textContent = 'No screenings found for this filter.';
+      return;
     }
 
-    function renderSchedule(days) {
-      const container = document.getElementById('schedule');
-      container.innerHTML = '';
+    days.forEach(day => {
+      const dayDiv = document.createElement('div');
+      dayDiv.className = 'day';
 
-      days.forEach(day => {
-        const dayDiv = document.createElement('div');
-        dayDiv.className = 'day';
+      const dayTitle = document.createElement('div');
+      dayTitle.className = 'day-title';
 
-        const dayTitle = document.createElement('div');
-        dayTitle.className = 'day-title';
-        dayTitle.textContent = day.day;
-        dayDiv.appendChild(dayTitle);
+      // Include theater name with the day
+      const theaterName = day.theater ? ` (${day.theater})` : '';
+      dayTitle.textContent = day.day + theaterName;
+      dayDiv.appendChild(dayTitle);
 
-        if (!day.movies || day.movies.length === 0) {
-          const empty = document.createElement('div');
-          empty.textContent = 'No movies listed for this day.';
-          dayDiv.appendChild(empty);
-        } else {
-          day.movies.forEach(movie => {
-            const movieDiv = document.createElement('div');
-            movieDiv.className = 'movie';
+      if (!day.movies || day.movies.length === 0) {
+        const empty = document.createElement('div');
+        empty.textContent = 'No movies listed for this day.';
+        dayDiv.appendChild(empty);
+      } else {
+        day.movies.forEach(movie => {
+          const movieDiv = document.createElement('div');
+          movieDiv.className = 'movie';
 
-            const movieName = document.createElement('div');
-            movieName.className = 'movie-name';
-            movieName.textContent = movie.movie;
-            movieDiv.appendChild(movieName);
+          const movieName = document.createElement('div');
+          movieName.className = 'movie-name';
+          movieName.textContent = movie.movie;
+          movieDiv.appendChild(movieName);
 
-            const showtimesDiv = document.createElement('div');
-            showtimesDiv.className = 'showtimes';
+          const showtimesDiv = document.createElement('div');
+          showtimesDiv.className = 'showtimes';
 
-            (movie.times || []).forEach((time, i) => {
-              const link = (movie.links || [])[i] || movie.links?.[0] || '#';
+          (movie.times || []).forEach((time, i) => {
+            const link = (movie.links || [])[i] || (movie.links && movie.links[0]) || '#';
 
-              const a = document.createElement('a');
-              a.className = 'showtime-link';
-              a.href = link.trim();
-              a.target = '_blank';
-              a.rel = 'noopener noreferrer';
-              a.textContent = time;
+            const a = document.createElement('a');
+            a.className = 'showtime-link';
+            a.href = (link || '#').trim();
+            a.target = '_blank';
+            a.rel = 'noopener noreferrer';
+            a.textContent = time;
 
-              showtimesDiv.appendChild(a);
-            });
-
-            movieDiv.appendChild(showtimesDiv);
-            dayDiv.appendChild(movieDiv);
+            showtimesDiv.appendChild(a);
           });
-        }
 
-        container.appendChild(dayDiv);
-      });
-    }
+          movieDiv.appendChild(showtimesDiv);
+          dayDiv.appendChild(movieDiv);
+        });
+      }
 
-    loadSchedule();
-  </script>
+      container.appendChild(dayDiv);
+    });
+  }
+
+  loadSchedule();
+</script>
+
 
 </body>
 </html>
+
 
 
 

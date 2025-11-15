@@ -769,6 +769,15 @@
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28345"
         ]
+      },
+      {
+        "movie": "The Blackout",
+        "times": [
+          "10:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28344"
+        ]
       }
     ]
   },
@@ -783,6 +792,15 @@
         ],
         "links": [
           "Sold Out"
+        ]
+      },
+      {
+        "movie": "Saturday Afternoon Cartoons: Fall Follies",
+        "times": [
+          "12:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28350"
         ]
       },
       {
@@ -813,6 +831,15 @@
         ]
       },
       {
+        "movie": "A Spring for the Thirsty",
+        "times": [
+          "4:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28352"
+        ]
+      },
+      {
         "movie": "The Stendhal Syndrome",
         "times": [
           "6:00pm"
@@ -822,12 +849,39 @@
         ]
       },
       {
+        "movie": "The White Bird Marked with Black",
+        "times": [
+          "6:15pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28353"
+        ]
+      },
+      {
         "movie": "Angel's Egg",
         "times": [
           "8:30pm"
         ],
         "links": [
           "Sold Out"
+        ]
+      },
+      {
+        "movie": "Betty Blue",
+        "times": [
+          "10:15pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28355"
+        ]
+      },
+      {
+        "movie": "New Rose Hotel",
+        "times": [
+          "10:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28356"
         ]
       }
     ]
@@ -852,167 +906,6 @@
         ],
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28370"
-        ]
-      },
-      {
-        "movie": "The White Bird Marked with Black",
-        "times": [
-          "6:15pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28353"
-        ]
-      },
-      {
-        "movie": "Mean Streets",
-        "times": [
-          "7:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28367"
-        ]
-      },
-      {
-        "movie": "Stalker",
-        "times": [
-          "9:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28368"
-        ]
-      }
-    ]
-  },
-  {
-    "theater": "Metrograph",
-    "day": "Mon Nov 17",
-    "movies": [
-      {
-        "movie": "Rouge",
-        "times": [
-          "9:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28468"
-        ]
-      },
-      {
-        "movie": "The Blackout",
-        "times": [
-          "10:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28344"
-        ]
-      },
-      {
-        "movie": "Saturday Afternoon Cartoons: Fall Follies",
-        "times": [
-          "12:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28350"
-        ]
-      },
-      {
-        "movie": "Killer of Sheep",
-        "times": [
-          "5:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28520"
-        ]
-      },
-      {
-        "movie": "I'm Not Everything I Want to Be",
-        "times": [
-          "5:40pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28471"
-        ]
-      }
-    ]
-  },
-  {
-    "theater": "Metrograph",
-    "day": "Tue Nov 18",
-    "movies": [
-      {
-        "movie": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
-        "times": [
-          "9:00pm"
-        ],
-        "links": [
-          "Sold Out"
-        ]
-      }
-    ]
-  },
-  {
-    "theater": "Metrograph",
-    "day": "Wed Nov 19",
-    "movies": [
-      {
-        "movie": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
-        "times": [
-          "9:00pm"
-        ],
-        "links": [
-          "Sold Out"
-        ]
-      },
-      {
-        "movie": "Nomad",
-        "times": [
-          "4:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28474"
-        ]
-      },
-      {
-        "movie": "Trouble Every Day",
-        "times": [
-          "9:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28478"
-        ]
-      }
-    ]
-  },
-  {
-    "theater": "Metrograph",
-    "day": "Thu Nov 20",
-    "movies": [
-      {
-        "movie": "Angel's Egg",
-        "times": [
-          "4:00pm",
-          "10:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28475",
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28476"
-        ]
-      },
-      {
-        "movie": "Betty Blue",
-        "times": [
-          "10:15pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28355"
-        ]
-      },
-      {
-        "movie": "New Rose Hotel",
-        "times": [
-          "10:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28356"
         ]
       },
       {
@@ -1063,10 +956,10 @@
       {
         "movie": "Mean Streets",
         "times": [
-          "5:40pm"
+          "7:30pm"
         ],
         "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28477"
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28367"
         ]
       },
       {
@@ -1079,12 +972,63 @@
         ]
       },
       {
-        "movie": "I'm Not Everything I Want to Be",
+        "movie": "Stalker",
         "times": [
-          "8:00pm"
+          "9:45pm"
         ],
         "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28482"
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28368"
+        ]
+      }
+    ]
+  },
+  {
+    "theater": "Metrograph",
+    "day": "Mon Nov 17",
+    "movies": [
+      {
+        "movie": "Rouge",
+        "times": [
+          "9:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28468"
+        ]
+      },
+      {
+        "movie": "Killer of Sheep",
+        "times": [
+          "5:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28520"
+        ]
+      },
+      {
+        "movie": "Dazed and Confused",
+        "times": [
+          "3:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28518"
+        ]
+      },
+      {
+        "movie": "La Chinoise",
+        "times": [
+          "3:40pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28521"
+        ]
+      },
+      {
+        "movie": "I'm Not Everything I Want to Be",
+        "times": [
+          "5:40pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28471"
         ]
       },
       {
@@ -1118,6 +1062,89 @@
   },
   {
     "theater": "Metrograph",
+    "day": "Tue Nov 18",
+    "movies": [
+      {
+        "movie": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
+        "times": [
+          "9:00pm"
+        ],
+        "links": [
+          "Sold Out"
+        ]
+      }
+    ]
+  },
+  {
+    "theater": "Metrograph",
+    "day": "Wed Nov 19",
+    "movies": [
+      {
+        "movie": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
+        "times": [
+          "9:00pm"
+        ],
+        "links": [
+          "Sold Out"
+        ]
+      }
+    ]
+  },
+  {
+    "theater": "Metrograph",
+    "day": "Thu Nov 20",
+    "movies": [
+      {
+        "movie": "Angel's Egg",
+        "times": [
+          "4:00pm",
+          "10:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28475",
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28476"
+        ]
+      },
+      {
+        "movie": "Mean Streets",
+        "times": [
+          "5:40pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28477"
+        ]
+      },
+      {
+        "movie": "I'm Not Everything I Want to Be",
+        "times": [
+          "8:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28482"
+        ]
+      },
+      {
+        "movie": "Nomad",
+        "times": [
+          "4:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28474"
+        ]
+      },
+      {
+        "movie": "Trouble Every Day",
+        "times": [
+          "9:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28478"
+        ]
+      }
+    ]
+  },
+  {
+    "theater": "Metrograph",
     "day": "Fri Nov 21",
     "movies": [
       {
@@ -1127,24 +1154,6 @@
         ],
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28400"
-        ]
-      },
-      {
-        "movie": "Dazed and Confused",
-        "times": [
-          "3:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28518"
-        ]
-      },
-      {
-        "movie": "La Chinoise",
-        "times": [
-          "3:40pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28521"
         ]
       },
       {
@@ -1175,6 +1184,15 @@
         ]
       },
       {
+        "movie": "Kleber Mendonça Filho Shorts Program",
+        "times": [
+          "5:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28394"
+        ]
+      },
+      {
         "movie": "Daughter's Daughter",
         "times": [
           "7:15pm"
@@ -1199,6 +1217,15 @@
         ],
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28397"
+        ]
+      },
+      {
+        "movie": "Dangerous Game",
+        "times": [
+          "9:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28398"
         ]
       }
     ]
@@ -1253,12 +1280,48 @@
         ]
       },
       {
+        "movie": "Neighboring Sounds",
+        "times": [
+          "1:15pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28402"
+        ]
+      },
+      {
+        "movie": "Around Ludlow: Henry Street Settlement Movie Club",
+        "times": [
+          "4:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28405"
+        ]
+      },
+      {
+        "movie": "Members Only: The Secret Agent",
+        "times": [
+          "4:25pm"
+        ],
+        "links": [
+          "Sold Out"
+        ]
+      },
+      {
         "movie": "Inflatable Sex Doll of the Wastelands",
         "times": [
           "6:15pm"
         ],
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28406"
+        ]
+      },
+      {
+        "movie": "L'intrus",
+        "times": [
+          "8:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28407"
         ]
       },
       {
@@ -1313,15 +1376,6 @@
         ]
       },
       {
-        "movie": "Dangerous Game",
-        "times": [
-          "9:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28398"
-        ]
-      },
-      {
         "movie": "Mirror",
         "times": [
           "4:45pm"
@@ -1340,12 +1394,39 @@
         ]
       },
       {
-        "movie": "L'intrus",
+        "movie": "My Friend Ivan Lapshin",
         "times": [
-          "8:00pm"
+          "2:30pm"
         ],
         "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28407"
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28413"
+        ]
+      },
+      {
+        "movie": "Evening News",
+        "times": [
+          "2:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28414"
+        ]
+      },
+      {
+        "movie": "Unmarried Mothers",
+        "times": [
+          "4:50pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28415"
+        ]
+      },
+      {
+        "movie": "Girls' School",
+        "times": [
+          "7:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28417"
         ]
       }
     ]
@@ -1364,15 +1445,6 @@
         ]
       },
       {
-        "movie": "A Spring for the Thirsty",
-        "times": [
-          "4:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28352"
-        ]
-      },
-      {
         "movie": "Pictures of Ghosts",
         "times": [
           "7:30pm"
@@ -1382,39 +1454,21 @@
         ]
       },
       {
-        "movie": "Neighboring Sounds",
-        "times": [
-          "1:15pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28402"
-        ]
-      },
-      {
-        "movie": "Around Ludlow: Henry Street Settlement Movie Club",
-        "times": [
-          "4:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28405"
-        ]
-      },
-      {
-        "movie": "Members Only: The Secret Agent",
-        "times": [
-          "4:25pm"
-        ],
-        "links": [
-          "Sold Out"
-        ]
-      },
-      {
         "movie": "Fantasia",
         "times": [
           "12:00pm"
         ],
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28431"
+        ]
+      },
+      {
+        "movie": "Four Adventures of Reinette and Mirabelle",
+        "times": [
+          "12:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28432"
         ]
       },
       {
@@ -1487,15 +1541,6 @@
         ]
       },
       {
-        "movie": "Kleber Mendonça Filho Shorts Program",
-        "times": [
-          "5:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28394"
-        ]
-      },
-      {
         "movie": "Mirror",
         "times": [
           "10:30pm"
@@ -1550,6 +1595,15 @@
         ]
       },
       {
+        "movie": "Bill & Ted's Bogus Journey",
+        "times": [
+          "3:20pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28449"
+        ]
+      },
+      {
         "movie": "Crooklyn",
         "times": [
           "5:45pm"
@@ -1565,6 +1619,15 @@
         ],
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28447"
+        ]
+      },
+      {
+        "movie": "Millennium Mambo",
+        "times": [
+          "10:25pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28446"
         ]
       }
     ]
@@ -1589,15 +1652,6 @@
         ],
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28452"
-        ]
-      },
-      {
-        "movie": "Four Adventures of Reinette and Mirabelle",
-        "times": [
-          "12:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28432"
         ]
       },
       {
@@ -1673,15 +1727,6 @@
         ]
       },
       {
-        "movie": "Millennium Mambo",
-        "times": [
-          "10:25pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28446"
-        ]
-      },
-      {
         "movie": "Boyfriends and Girlfriends",
         "times": [
           "11:30am"
@@ -1706,42 +1751,6 @@
         ]
       },
       {
-        "movie": "My Friend Ivan Lapshin",
-        "times": [
-          "2:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28413"
-        ]
-      },
-      {
-        "movie": "Evening News",
-        "times": [
-          "2:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28414"
-        ]
-      },
-      {
-        "movie": "Unmarried Mothers",
-        "times": [
-          "4:50pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28415"
-        ]
-      },
-      {
-        "movie": "Girls' School",
-        "times": [
-          "7:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28417"
-        ]
-      },
-      {
         "movie": "Bram Stoker's Dracula",
         "times": [
           "10:40pm"
@@ -1757,15 +1766,6 @@
         ],
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28483"
-        ]
-      },
-      {
-        "movie": "Bill & Ted's Bogus Journey",
-        "times": [
-          "3:20pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28449"
         ]
       },
       {
@@ -1787,12 +1787,30 @@
         ]
       },
       {
+        "movie": "Sirat",
+        "times": [
+          "6:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28514"
+        ]
+      },
+      {
         "movie": "The Devil's Advocate",
         "times": [
           "7:45pm"
         ],
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28490"
+        ]
+      },
+      {
+        "movie": "Fire Will Come",
+        "times": [
+          "8:50pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28487"
         ]
       }
     ]
@@ -1820,90 +1838,12 @@
         ]
       },
       {
-        "movie": "Sirat",
-        "times": [
-          "6:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28514"
-        ]
-      },
-      {
         "movie": "A League of Their Own",
         "times": [
           "12:00pm"
         ],
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28502"
-        ]
-      },
-      {
-        "movie": "Small Talk",
-        "times": [
-          "2:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28501"
-        ]
-      },
-      {
-        "movie": "Videodrome",
-        "times": [
-          "10:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28496"
-        ]
-      }
-    ]
-  },
-  {
-    "theater": "Metrograph",
-    "day": "Sun Dec 7",
-    "movies": [
-      {
-        "movie": "Chungking Express",
-        "times": [
-          "8:10pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28509"
-        ]
-      },
-      {
-        "movie": "A View to a Kill",
-        "times": [
-          "2:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28513"
-        ]
-      },
-      {
-        "movie": "The Devil's Advocate",
-        "times": [
-          "9:15pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28511"
-        ]
-      },
-      {
-        "movie": "Fire Will Come",
-        "times": [
-          "8:50pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28487"
-        ]
-      },
-      {
-        "movie": "A League of Their Own",
-        "times": [
-          "12:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28503"
         ]
       },
       {
@@ -1918,10 +1858,10 @@
       {
         "movie": "Small Talk",
         "times": [
-          "7:20pm"
+          "2:30pm"
         ],
         "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28512"
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28501"
         ]
       },
       {
@@ -1976,6 +1916,66 @@
         ],
         "links": [
           "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28497"
+        ]
+      },
+      {
+        "movie": "Videodrome",
+        "times": [
+          "10:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28496"
+        ]
+      }
+    ]
+  },
+  {
+    "theater": "Metrograph",
+    "day": "Sun Dec 7",
+    "movies": [
+      {
+        "movie": "Chungking Express",
+        "times": [
+          "8:10pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28509"
+        ]
+      },
+      {
+        "movie": "A View to a Kill",
+        "times": [
+          "2:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28513"
+        ]
+      },
+      {
+        "movie": "The Devil's Advocate",
+        "times": [
+          "9:15pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28511"
+        ]
+      },
+      {
+        "movie": "A League of Their Own",
+        "times": [
+          "12:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28503"
+        ]
+      },
+      {
+        "movie": "Small Talk",
+        "times": [
+          "7:20pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28512"
         ]
       },
       {

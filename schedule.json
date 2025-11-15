@@ -130,6 +130,30 @@
     ]
   },
   {
+    "theater": "Metrograph",
+    "day": "Fri Nov 14",
+    "movies": [
+      {
+        "movie": "Rouge",
+        "times": [
+          "10:40pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28345"
+        ]
+      },
+      {
+        "movie": "The Blackout",
+        "times": [
+          "10:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28344"
+        ]
+      }
+    ]
+  },
+  {
     "theater": "IFC Center",
     "day": "Sat Nov 15",
     "movies": [
@@ -274,6 +298,111 @@
     ]
   },
   {
+    "theater": "Metrograph",
+    "day": "Sat Nov 15",
+    "movies": [
+      {
+        "movie": "Rouge",
+        "times": [
+          "8:20pm"
+        ],
+        "links": [
+          "Sold Out"
+        ]
+      },
+      {
+        "movie": "Saturday Afternoon Cartoons: Fall Follies",
+        "times": [
+          "12:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28350"
+        ]
+      },
+      {
+        "movie": "The Bill Douglas Trilogy",
+        "times": [
+          "12:15pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28360"
+        ]
+      },
+      {
+        "movie": "Killer of Sheep",
+        "times": [
+          "2:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28351"
+        ]
+      },
+      {
+        "movie": "The Bodyguard",
+        "times": [
+          "3:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28359"
+        ]
+      },
+      {
+        "movie": "A Spring for the Thirsty",
+        "times": [
+          "4:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28352"
+        ]
+      },
+      {
+        "movie": "The Stendhal Syndrome",
+        "times": [
+          "6:00pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28358"
+        ]
+      },
+      {
+        "movie": "The White Bird Marked with Black",
+        "times": [
+          "6:15pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28353"
+        ]
+      },
+      {
+        "movie": "Angel's Egg",
+        "times": [
+          "8:30pm"
+        ],
+        "links": [
+          "Sold Out"
+        ]
+      },
+      {
+        "movie": "Betty Blue",
+        "times": [
+          "10:15pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28355"
+        ]
+      },
+      {
+        "movie": "New Rose Hotel",
+        "times": [
+          "10:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28356"
+        ]
+      }
+    ]
+  },
+  {
     "theater": "IFC Center",
     "day": "Sun Nov 16",
     "movies": [
@@ -366,6 +495,102 @@
         ],
         "links": [
           "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=528213~8722a542-64c1-4c0b-af02-c3e8a239d769& "
+        ]
+      }
+    ]
+  },
+  {
+    "theater": "Metrograph",
+    "day": "Sun Nov 16",
+    "movies": [
+      {
+        "movie": "The Bill Douglas Trilogy",
+        "times": [
+          "2:15pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28363"
+        ]
+      },
+      {
+        "movie": "The Stendhal Syndrome",
+        "times": [
+          "7:25pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28370"
+        ]
+      },
+      {
+        "movie": "Licorice Pizza",
+        "times": [
+          "11:45am"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28361"
+        ]
+      },
+      {
+        "movie": "Jacquot de Nantes",
+        "times": [
+          "11:50am"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28362"
+        ]
+      },
+      {
+        "movie": "Swan Lake. The Zone",
+        "times": [
+          "2:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28364"
+        ]
+      },
+      {
+        "movie": "Performa presents: Terra Femme",
+        "times": [
+          "5:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28366"
+        ]
+      },
+      {
+        "movie": "Italianamerican preceded by Sincerity I",
+        "times": [
+          "5:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28365"
+        ]
+      },
+      {
+        "movie": "Mean Streets",
+        "times": [
+          "7:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28367"
+        ]
+      },
+      {
+        "movie": "Moonstruck",
+        "times": [
+          "9:45pm"
+        ],
+        "links": [
+          "Sold Out"
+        ]
+      },
+      {
+        "movie": "Stalker",
+        "times": [
+          "9:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28368"
         ]
       }
     ]
@@ -474,6 +699,84 @@
     ]
   },
   {
+    "theater": "Metrograph",
+    "day": "Mon Nov 17",
+    "movies": [
+      {
+        "movie": "Rouge",
+        "times": [
+          "9:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28468"
+        ]
+      },
+      {
+        "movie": "Killer of Sheep",
+        "times": [
+          "5:45pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28520"
+        ]
+      },
+      {
+        "movie": "Dazed and Confused",
+        "times": [
+          "3:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28518"
+        ]
+      },
+      {
+        "movie": "La Chinoise",
+        "times": [
+          "3:40pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28521"
+        ]
+      },
+      {
+        "movie": "I'm Not Everything I Want to Be",
+        "times": [
+          "5:40pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28471"
+        ]
+      },
+      {
+        "movie": "The Beaches of Agnès",
+        "times": [
+          "7:30pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28470"
+        ]
+      },
+      {
+        "movie": "Shadows of Forgotten Ancestors",
+        "times": [
+          "7:40pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28519"
+        ]
+      },
+      {
+        "movie": "Hi, Mom!",
+        "times": [
+          "9:50pm"
+        ],
+        "links": [
+          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28522"
+        ]
+      }
+    ]
+  },
+  {
     "theater": "IFC Center",
     "day": "Tue Nov 18",
     "movies": [
@@ -563,6 +866,21 @@
         ],
         "links": [
           "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=528215~8722a542-64c1-4c0b-af02-c3e8a239d769& "
+        ]
+      }
+    ]
+  },
+  {
+    "theater": "Metrograph",
+    "day": "Tue Nov 18",
+    "movies": [
+      {
+        "movie": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
+        "times": [
+          "9:00pm"
+        ],
+        "links": [
+          "Sold Out"
         ]
       }
     ]
@@ -664,6 +982,21 @@
     ]
   },
   {
+    "theater": "Metrograph",
+    "day": "Wed Nov 19",
+    "movies": [
+      {
+        "movie": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
+        "times": [
+          "9:00pm"
+        ],
+        "links": [
+          "Sold Out"
+        ]
+      }
+    ]
+  },
+  {
     "theater": "IFC Center",
     "day": "Thu Nov 20",
     "movies": [
@@ -748,344 +1081,6 @@
           "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=528203~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
           "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=528204~8722a542-64c1-4c0b-af02-c3e8a239d769& ",
           "https://tickets.ifccenter.com/websales/pages/ticketsearchcriteria.aspx?evtinfo=528192~8722a542-64c1-4c0b-af02-c3e8a239d769& "
-        ]
-      }
-    ]
-  },
-  {
-    "theater": "IFC Center",
-    "day": "Coming Soon",
-    "movies": []
-  },
-  {
-    "theater": "Metrograph",
-    "day": "Fri Nov 14",
-    "movies": [
-      {
-        "movie": "Rouge",
-        "times": [
-          "10:40pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28345"
-        ]
-      },
-      {
-        "movie": "The Blackout",
-        "times": [
-          "10:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28344"
-        ]
-      }
-    ]
-  },
-  {
-    "theater": "Metrograph",
-    "day": "Sat Nov 15",
-    "movies": [
-      {
-        "movie": "Rouge",
-        "times": [
-          "8:20pm"
-        ],
-        "links": [
-          "Sold Out"
-        ]
-      },
-      {
-        "movie": "Saturday Afternoon Cartoons: Fall Follies",
-        "times": [
-          "12:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28350"
-        ]
-      },
-      {
-        "movie": "The Bill Douglas Trilogy",
-        "times": [
-          "12:15pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28360"
-        ]
-      },
-      {
-        "movie": "Killer of Sheep",
-        "times": [
-          "2:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28351"
-        ]
-      },
-      {
-        "movie": "The Bodyguard",
-        "times": [
-          "3:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28359"
-        ]
-      },
-      {
-        "movie": "A Spring for the Thirsty",
-        "times": [
-          "4:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28352"
-        ]
-      },
-      {
-        "movie": "The Stendhal Syndrome",
-        "times": [
-          "6:00pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28358"
-        ]
-      },
-      {
-        "movie": "The White Bird Marked with Black",
-        "times": [
-          "6:15pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28353"
-        ]
-      },
-      {
-        "movie": "Angel's Egg",
-        "times": [
-          "8:30pm"
-        ],
-        "links": [
-          "Sold Out"
-        ]
-      },
-      {
-        "movie": "Betty Blue",
-        "times": [
-          "10:15pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28355"
-        ]
-      },
-      {
-        "movie": "New Rose Hotel",
-        "times": [
-          "10:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28356"
-        ]
-      }
-    ]
-  },
-  {
-    "theater": "Metrograph",
-    "day": "Sun Nov 16",
-    "movies": [
-      {
-        "movie": "The Bill Douglas Trilogy",
-        "times": [
-          "2:15pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28363"
-        ]
-      },
-      {
-        "movie": "The Stendhal Syndrome",
-        "times": [
-          "7:25pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28370"
-        ]
-      },
-      {
-        "movie": "Licorice Pizza",
-        "times": [
-          "11:45am"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28361"
-        ]
-      },
-      {
-        "movie": "Jacquot de Nantes",
-        "times": [
-          "11:50am"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28362"
-        ]
-      },
-      {
-        "movie": "Swan Lake. The Zone",
-        "times": [
-          "2:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28364"
-        ]
-      },
-      {
-        "movie": "Performa presents: Terra Femme",
-        "times": [
-          "5:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28366"
-        ]
-      },
-      {
-        "movie": "Italianamerican preceded by Sincerity I",
-        "times": [
-          "5:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28365"
-        ]
-      },
-      {
-        "movie": "Mean Streets",
-        "times": [
-          "7:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28367"
-        ]
-      },
-      {
-        "movie": "Moonstruck",
-        "times": [
-          "9:45pm"
-        ],
-        "links": [
-          "Sold Out"
-        ]
-      },
-      {
-        "movie": "Stalker",
-        "times": [
-          "9:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28368"
-        ]
-      }
-    ]
-  },
-  {
-    "theater": "Metrograph",
-    "day": "Mon Nov 17",
-    "movies": [
-      {
-        "movie": "Rouge",
-        "times": [
-          "9:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28468"
-        ]
-      },
-      {
-        "movie": "Killer of Sheep",
-        "times": [
-          "5:45pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28520"
-        ]
-      },
-      {
-        "movie": "Dazed and Confused",
-        "times": [
-          "3:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28518"
-        ]
-      },
-      {
-        "movie": "La Chinoise",
-        "times": [
-          "3:40pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28521"
-        ]
-      },
-      {
-        "movie": "I'm Not Everything I Want to Be",
-        "times": [
-          "5:40pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28471"
-        ]
-      },
-      {
-        "movie": "The Beaches of Agnès",
-        "times": [
-          "7:30pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28470"
-        ]
-      },
-      {
-        "movie": "Shadows of Forgotten Ancestors",
-        "times": [
-          "7:40pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28519"
-        ]
-      },
-      {
-        "movie": "Hi, Mom!",
-        "times": [
-          "9:50pm"
-        ],
-        "links": [
-          "https://t.metrograph.com/Ticketing/visSelectTickets.aspx?cinemacode=9999&txtSessionId=28522"
-        ]
-      }
-    ]
-  },
-  {
-    "theater": "Metrograph",
-    "day": "Tue Nov 18",
-    "movies": [
-      {
-        "movie": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
-        "times": [
-          "9:00pm"
-        ],
-        "links": [
-          "Sold Out"
-        ]
-      }
-    ]
-  },
-  {
-    "theater": "Metrograph",
-    "day": "Wed Nov 19",
-    "movies": [
-      {
-        "movie": "PRIVATE EVENT TODAY IN THEATER & COMMISSARY",
-        "times": [
-          "9:00pm"
-        ],
-        "links": [
-          "Sold Out"
         ]
       }
     ]
@@ -2033,5 +2028,10 @@
         ]
       }
     ]
+  },
+  {
+    "theater": "IFC Center",
+    "day": "Coming Soon",
+    "movies": []
   }
 ]
